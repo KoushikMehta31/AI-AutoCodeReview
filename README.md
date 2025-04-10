@@ -1,6 +1,8 @@
 # 🧠 AI AutoCodeReview
 
-**AI AutoCodeReview** is a smart, full-stack web application that automates code reviews using **Google Generative AI (Gemini/PaLM)**. It helps developers and learners receive immediate, structured feedback on their code, improving quality, consistency, and adherence to best practices.
+ Developed an **AI AutoCodeReview** tool using Node.js, Express, React.js, and Google Generative AI. Enabled
+ intelligent feedback generation via POST requests, with syntax highlighting (PrismJS) and Markdown rendering
+ for clean code display.
 
 ---
 
