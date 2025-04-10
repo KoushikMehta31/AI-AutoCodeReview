@@ -84,7 +84,7 @@ Users can submit code snippets in any language through the input field. The code
 function sum() {
   return a + 3;
 }
-
+---
 ### ✅ Output
 ❌ Bad Code:
 
