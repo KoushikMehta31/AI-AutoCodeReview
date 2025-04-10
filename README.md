@@ -81,6 +81,26 @@ Users can submit code snippets in any language through the input field. The code
 ### Example Code:
 
 ```javascript
-function sum(a, b) {
-  return a + b;
+function sum() {
+  return a + 3;
 }
+
+### ✅ Output
+❌ Bad Code:
+
+function sum() {
+  return a + 3;
+}
+🔍 Issues:
+
+❌ a is not defined within the scope of the function, likely causing an error or unexpected behavior.
+❌ The function doesn't accept any arguments, making it inflexible and only useful for a specific, predefined a.
+✅ Recommended Fix:
+
+function sum(a) {
+  return a + 3;
+}
+💡 Improvements:
+
+✔ The function now accepts a as an argument, making it reusable and flexible.
+✔ It clearly defines the scope of a, preventing any undefined variable errors.
