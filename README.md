@@ -45,7 +45,7 @@ The user lands on a modern interface split into two main sections:
 - **Left Panel** – Code input area with syntax highlighting  
 - **Right Panel** – Output area showing AI-reviewed feedback, issues, suggestions, and improvements.
 
-![Code Review UI](public/)
+![Code Review UI](FrontEnd/public/homeInterface.png)
 
 
 ---
@@ -60,7 +60,7 @@ User enters or pastes their code in a text area with syntax highlighting.
 ### 🖱️ 3. Click "Review" Button
 User clicks the "Review" button to submit code for AI evaluation.
 
-![Review Button](frontend/public/review.png)
+![Review Button](FrontEnd/public/review.png)
 
 ---
 
